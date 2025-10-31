@@ -1,0 +1,82 @@
+h1{
+    color:white;
+}
+span:hover{
+    zoom:120%;
+}
+span{
+    color:aqua;
+}
+.btn{
+  background-color: #1f3540;
+  border: 4px solid #0f1b21;
+  border-radius:12px;
+  width: 140px;
+  height: 140px;
+  cursor: pointer;
+  font-size: 24px;
+  float: left;
+}
+.btn:hover {
+    border-color:#26FFCB;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 40px;
+
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+
+}
+.reset{
+    border: none;
+    border-radius: 20px;
+    padding:2px;
+    color:#26FFCB;
+    background-color: #1f3540;
+    font-size: 24px;
+    font-weight: bold;
+    height: 60px;
+    width:150px;
+    margin:10px 10px;
+}
+.reset:hover{
+    border: 3px solid goldenrod;;
+ 
+}
+
+.result{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border:2px solid goldenrod;
+    border-radius: 12px;
+    padding:10px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    font-weight: ;
+}
+
+.xresult{
+    height:40px;
+    width: 40px;
+}
+
+.oresult{
+    height:40px;
+    width: 40px;
+}
